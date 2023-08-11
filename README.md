@@ -28,7 +28,7 @@ The code inside the script has responsability of dealing with the following task
 Feel free to explore the .py file for understanding how it works.
 
 
-# Exercise 1.1: A baseline MLP
+# 1.1: A baseline MLP
 
 Implement a simple Multilayer Perceptron to classify the 10 digits of MNIST (e.g. two narrow layers).Train this model to convergence, monitoring (at least) the loss and accuracy on the training and validation sets for every epoch.
 Note: This would be a good time to think about abstracting your model definition, and training and evaluation pipelines in order to make it easier to compare performance of different models.
@@ -47,7 +47,7 @@ The observation that gradients appear to be stable and well-behaved during the t
 
 ![Gradient Flow](https://github.com/salahjebali/DeepLearningApplications_labs/blob/main/lab1/results/1.1%20MLP/gradient_flow.png)
 
-# Exercise 1.2: Rinse and Repeat
+# 1.2: Rinse and Repeat
 
 Repeat the verification you did above, but with **Convolutional** Neural Networks. If you were careful about abstracting your model and training code, this should be a simple exercise. Show that **deeper** CNNs *without* residual connections do not always work better and **even deeper** ones *with* residual connections.
 
@@ -128,7 +128,7 @@ To conduct these analysis I used [Weight and Biases](https://wandb.ai/site) for 
 ![VL](https://github.com/salahjebali/DeepLearningApplications_labs/blob/main/lab1/results/1.2%20ResNet_vs_VGG/wandb/vgg_val_loss.png)
 
 
-# Exercise 2.1: Explain why Residual Connections are so effective
+# 2.1: Explain why Residual Connections are so effective
 
 Use your two models (with and without residual connections) you developed above to study and quantify why the residual versions of the networks learn more effectively.
 
